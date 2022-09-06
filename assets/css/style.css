@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.white-vertical{
+    margin: 20px 10px;
+}
+
+/* COLUMN, */
+.double-column{
+    float: left;
+    display: inline-block;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    padding: 0 8px;
+}
+
+
+/* BODY */
+.html-main{
+    font-family: sans-serif;
+    clear: both;
+    
+}
+
+#content, #footer{
+    background-color: #000;
+}
+
+
+/* HEADER */
+.taskbar{
+    background-color: #222;
+    overflow: auto;
+    position: fixed;
+    margin-top: 0px;
+    height: 695px;
+    width: 120px;
+    
+}
+
+.personal-image{
+    height: 133px;
+    width: 120px;
+}
+
+.personal{
+    height: 133px;
+    width: 120px;
+}
+
+.taskbar .fa{
+    /* font-size: ; */
+    
+}
+
+.taskbar .header-icon{
+    text-align: center;
+    padding: 12px 24px;
+    height: 100px;
+}
+
+.taskbar .icon-mean{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.taskbar .icon-form{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.taskbar .first-element{
+    background-color: #000;
+}
+
+.taskbar .first-element:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.header-icon:hover{
+    background-color: #000;
+}
+
+
+
+/* CONTENT */
+#content{
+    float: top right;
+    height: auto;
+    width: calc(100% - 120px);
+    float: right;
+    padding: 46px 31px;
+    position: relative;
+    text-align: justify;
+    font-weight: 400;
+}
+
+/* HOME */
+
+.home-image .home-background{
+    /* background-image: url(/assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 1000px; */
+    width: 100%;
+    height: auto;
+}
+
+.home .content-introduce{
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.home .h1{
+    margin: 10px;
+    font-size: 64px;
+
+}
+
+.home .h2{
+    margin: 15px;
+    font-size: 15px;
+}
+
+/* About */
+
+.about{
+    float: right;
+    
+}
+
+.about .about-name{
+    color: #fff;
+    position: relative;
+    left: 0px;
+    font-size: 30px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.about .about-intro{
+    color: #757575;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.about .about-skill{
+    color: #fff;
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 16px 0;
+}
+
+.about .about-list-skill{
+    color: #757575;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    letter-spacing: 4px;
+    list-style: none;
+}
+
+.meter{
+    display: block;
+    background-color: white;
+    height: 28px;
+    margin: 25px 0;
+}
+
+.meter .about-meter-Photography{
+    background-color: #616161;
+    height: 28px;
+    width: 95%;
+
+}
+
+.meter .about-meter-WebDesign{
+    background-color: #616161;
+    height: 28px;
+    width: 70%;
+}
+
+.meter .about-meter-Photoshop{
+    background-color: #616161;
+    height: 28px;
+    width: 60%;
+}
+
+.skill-infor-table{
+    display: block;
+    height: 200px;
+}
+
+.skill-infor{
+    list-style: none;
+}
+
+.three-column{
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 24px;
+    width: 25%;
+    text-align: center;
+    padding: 25px 0;
+    height: 106px;
+    margin: 32px 0px;
+    float: left;
+}
+
+.content-download{
+    color: #000;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    height: 46px;
+    width: 209px;
+    text-align: center;
+    line-height: 46px;
+
+}
+
+.content-download .text,
+.content-download .fa-download{
+    display: inline-block;
+    color: #000;
+}
+
+.content-download:hover{
+    background-color: #ccc;
+}
+
+/* Price */
+
+
+.price-content{
+    color: #f1f1f1;
+    padding: 26px 0; 
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.price .price-list{
+    background-color:#fff;
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    opacity: 0.6;
+}
+
+.price .price-list-all{
+    height: 470px;
+}
+
+.price .price-list:hover{
+    opacity: 1;
+}
+
+.price-list .price-list-item{
+    padding: 16px 0;
+    border-bottom: solid 1px #ddd;
+}
+
+.price-list .price-main-list{
+    background-color: #757575;
+
+}
+
+.price .price-main-list{
+    line-height: 50px;
+    font-size: 24px;
+    color: #fff;
+}
+
+
+.price .price-list-cost{
+    font-size: 30px;
+}
+
+.price .price-button{
+    background-color: #fff;
+    border: none;
+    padding: 12px 24px;
+}
+
+.price .price-button:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.price .price-last-element{
+    background-color: #f1f1f1;
+}
+
+/* Reputation */
+.reputation{
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+.reputation .reputation-header{
+    color: #f1f1f1;
+    font-size: 24px;
+    margin: 34px 0px;
+    display: block;
+}
+
+.reputation .reputation-img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+
+}
+
+
+
+.reputation .reputation-infor{
+    color: #757575;
+    
+    
+}
+
+.reputation-all .reputation-content{
+    display: inline-block;
+    line-height: 40px;
+    justify-content: center;
+    transform: translateY(-20%);
+    
+}
+/* Photos */
+.title{
+    color: #f1f1f1;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.photos-style{
+    width: 100%;
+}
+
+.photos-list{
+    height: 950px;
+}
+/* Contact */
+.contact .contact-title{
+    margin-top: 64px;
+}
+
+.contact-list{
+    color: #f1f1f1;
+    
+}
+
+.contact-list .contact-list-content{
+    display: inline-block;
+    font-size: 15px;
+    color: #757575;
+}
+
+.fa-location-dot,
+.fa-phone,
+.fa-envelope{
+    margin-right: 16px;
+    
+}
+
+.contact-list{
+    padding-top: 10px;
+}
+
+
+.contact-form .contact-form-list{
+  list-style: none;
+    
+}
+
+.contact-form-list-element{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 54px;
+    color: #757575;
+    padding-left: 10px;
+}
+
+.send-btn{
+    color: #000;
+    background-color: #ccc;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 12px 24px;
+}
+
+
+.send-btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+/* FOOTER */
+
+#footer{
+   margin-top: 100px;
+}
+
+.icon-list{
+    display: inline-block;
+    color: #757575;
+
+
+}
+
+.icon-list:hover{
+    opacity: 0.6;
+}
+
+.license{
+    margin-top: 20px;
+    color: #757575;
+}
+
+.license a:hover{
+    color: green;
+    cursor: pointer;
+}
